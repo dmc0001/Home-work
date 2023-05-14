@@ -36,7 +36,7 @@
         android:layout_marginTop="16dp"
         android:textStyle="bold"
         android:textSize="18sp"
-        android:text="First Day" />
+        android:text="Sixth Day" />
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/muscleGroupLayoutEditText"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -76,6 +76,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
+            android:hint="Training Date(YYYY-MM-DD)"
             tools:ignore="SpeakableTextPresentCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -87,25 +88,30 @@
         android:layout_marginTop="16dp"
         android:textStyle="bold"
         android:textSize="18sp"
-        android:text="Second Day" />
+        android:text="Fifth Day" />
+
+
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/dayTwoMuscleGroupLayoutEditText"
+        android:id="@+id/muscleGroupLayoutEditText2"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/dayTwoTextView"
-        android:layout_margin="16dp"
-
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        >
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp">
 
         <AutoCompleteTextView
-            android:id="@+id/dayTwoMuscleGroupEditText"
+            android:id="@+id/muscleGroupEditText2"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:paddingStart="15dp"
             android:hint="Muscle Group Trained"
+            android:inputType="textAutoComplete"
+
             android:textColor="@color/black"
-            tools:ignore="TouchTargetSizeCheck" />
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -113,7 +119,7 @@
         android:id="@+id/dayTwoDateLayoutEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/dayTwoMuscleGroupLayoutEditText"
+        android:layout_below="@id/muscleGroupLayoutEditText2"
         android:layout_margin="16dp"
 
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -135,25 +141,29 @@
         android:layout_marginTop="16dp"
         android:textStyle="bold"
         android:textSize="18sp"
-        android:text="Third Day" />
+        android:text="Fourth Day" />
+
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/dayThirdMuscleGroupLayoutEditText"
+        android:id="@+id/muscleGroupLayoutEditText3"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/dayThirdTextView"
-        android:layout_margin="16dp"
-
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        >
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp">
 
         <AutoCompleteTextView
-            android:id="@+id/dayThirdMuscleGroupEditText"
+            android:id="@+id/muscleGroupEditText3"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:paddingStart="15dp"
             android:hint="Muscle Group Trained"
+            android:inputType="textAutoComplete"
+
             android:textColor="@color/black"
-            tools:ignore="TouchTargetSizeCheck" />
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -163,7 +173,7 @@
         android:id="@+id/dayThirdDateLayoutEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/dayThirdMuscleGroupLayoutEditText"
+        android:layout_below="@id/muscleGroupLayoutEditText3"
         android:layout_margin="16dp"
 
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -183,29 +193,36 @@
         android:layout_marginTop="16dp"
         android:textStyle="bold"
         android:textSize="18sp"
-        android:text="Fourth Day" />
+        android:text="Third Day" />
+
+
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/dayFourthMuscleGroupLayoutEditText"
+        android:id="@+id/muscleGroupLayoutEditText4"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/dayFourthTextView"
-        android:layout_margin="16dp"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        >
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp">
+
         <AutoCompleteTextView
-            android:id="@+id/dayFourthMuscleGroupEditText"
+            android:id="@+id/muscleGroupEditText4"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:paddingStart="15dp"
+            android:hint="Muscle Group Trained"
+            android:inputType="textAutoComplete"
             android:textColor="@color/black"
-            android:hint="Muscle Group Trained"/>
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/dayFourthDateLayoutEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/dayFourthMuscleGroupLayoutEditText"
+        android:layout_below="@id/muscleGroupLayoutEditText4"
         android:layout_margin="16dp"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         >
@@ -223,23 +240,30 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/dayFourthDateLayoutEditText"
         android:layout_marginTop="16dp"
-        android:text="Fifth Day"
+        android:text="Second Day"
         android:textSize="18sp"
         android:textStyle="bold" />
+
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/dayFifthMuscleGroupLayoutEditText"
+        android:id="@+id/muscleGroupLayoutEditText5"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/dayFifthTextView"
-        android:layout_margin="16dp"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        >
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/dayFifthMuscleGroupEditText"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/muscleGroupEditText5"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
+            android:paddingStart="15dp"
+            android:hint="Muscle Group Trained"
+            android:inputType="textAutoComplete"
             android:textColor="@color/black"
-            android:hint="Muscle Group Trained"/>
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -248,13 +272,13 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/dayFifthMuscleGroupLayoutEditText"
+        android:layout_below="@id/muscleGroupLayoutEditText5"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp">
 
-        <AutoCompleteTextView
+        <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/dayFifthDateEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -271,33 +295,37 @@
         android:layout_marginTop="16dp"
         android:textStyle="bold"
         android:textSize="18sp"
-        android:text="Sixth Day" />
+        android:text="First Day" />
+
+
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/daySixthMuscleGroupLayoutEditText"
+        android:id="@+id/muscleGroupLayoutEditText6"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/daySixthTextView"
-        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp">
 
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        >
         <AutoCompleteTextView
-            android:id="@+id/daySixthMuscleGroupEditText"
+            android:id="@+id/muscleGroupEditText6"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:paddingStart="15dp"
+            android:hint="Muscle Group Trained"
+            android:inputType="textAutoComplete"
             android:textColor="@color/black"
-            android:hint="Muscle Group Trained"/>
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
     </com.google.android.material.textfield.TextInputLayout>
-
-
 
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/daySixthDateLayoutEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/daySixthMuscleGroupLayoutEditText"
+        android:layout_below="@id/muscleGroupLayoutEditText6"
         android:layout_margin="16dp"
 
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -311,51 +339,12 @@
     </com.google.android.material.textfield.TextInputLayout>
 
 
-    <TextView
-        android:id="@+id/daySeventhTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/daySixthDateLayoutEditText"
-        android:layout_marginTop="16dp"
-        android:textStyle="bold"
-        android:textSize="18sp"
-        android:text="Seventh Day" />
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/daySeventhMuscleGroupLayoutEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/daySeventhTextView"
-        android:layout_margin="16dp"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        >
-        <AutoCompleteTextView
-            android:id="@+id/daySeventhMuscleGroupEditText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:hint="Muscle Group Trained"/>
-    </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/daySeventhDateLayoutEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/daySeventhMuscleGroupLayoutEditText"
-        android:layout_margin="16dp"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        >
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/daySeventhDateEditText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:hint="Training Date (YYYY-MM-DD)"/>
-    </com.google.android.material.textfield.TextInputLayout>
     <Button
         android:id="@+id/checkButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/daySeventhDateLayoutEditText"
+        android:layout_below="@id/daySixthDateLayoutEditText"
         android:layout_marginTop="16dp"
         android:layout_centerHorizontal="true"
         style="?attr/materialButtonOutlinedStyle"

@@ -10,7 +10,7 @@ import com.anyandroid.letstrain.databinding.FragmentSplashScreenBinding
 
 class SplashScreenFragment : Fragment() {
 
-    lateinit var binding: FragmentSplashScreenBinding
+    private lateinit var binding: FragmentSplashScreenBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
