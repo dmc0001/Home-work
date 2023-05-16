@@ -18,7 +18,7 @@ To use the LetsTrain app, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/LetsTrain.git
-```
+
 Sure! Here's a README file for your Android app:
 
 vbnet
