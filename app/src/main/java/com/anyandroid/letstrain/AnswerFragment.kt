@@ -37,7 +37,7 @@ class AnswerFragment : Fragment() {
 
         val muscleGroupsString = muscleGroups.joinToString(", ")
 
-        binding.textView.text = muscleGroupsString
+        binding.textView.text = "You can Train Today : $muscleGroupsString"
 
         return binding.root
     }

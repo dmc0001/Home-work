@@ -22,7 +22,7 @@ class SplashScreenFragment : Fragment() {
 
 //I wanna after 3 seconds go to HomeFragment
         val thread = Thread {
-            Thread.sleep(3000)
+            Thread.sleep(5000)
             val fragment = HomeFragment()
             val fragmentManager = activity?.supportFragmentManager
             val fragmentTransaction = fragmentManager?.beginTransaction()
