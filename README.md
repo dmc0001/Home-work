@@ -21,12 +21,6 @@ To use the LetsTrain app, follow these steps:
 
 Sure! Here's a README file for your Android app:
 
-vbnet
-Copy code
-# LetsTrain App
-
-LetsTrain is an Android app that helps you plan and track your fitness training. It allows you to schedule different muscle group workouts for specific days and provides suggestions on which muscle groups you can train on a given day.
-
 ## Features
 
 - Schedule muscle group workouts for each day of the week
